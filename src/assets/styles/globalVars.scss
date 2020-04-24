@@ -1,0 +1,33 @@
+$activityMonthYearFontColor: #3b4b47;
+$activityMonthYearBackgroundColor: #fff;
+
+$calendarFontColor: #e0e4e4;
+$calendarTableHeadFontColor: #3b4b47;
+$calendarTableHeadBackgroundColor: #fff;
+
+$calendarTableBodyFontColor: #aaaaaa;
+$calendarTableBodyBackgroundColor: #fff;
+
+$calendarBorderColor: #e9ecec;
+
+$calendarTableRowEven: #fff;
+$calendarTableRowOdd: #fff;
+
+$calendarActiveDateColor: #fff;
+$calendarActiveDateBackgroundColor: #00856f;
+$calendarActiveDateBorder: #007e67;
+
+$calendarHoverDateColor: #fff;
+$calendarHoverDateBackgroundColor: #b4b4b4;
+$calendarHoverDateBorder: #a0a0a0;
+
+$calendarFirstdayOfMonth: #00856f;
+
+@mixin allScopedValues {
+	user-select: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 1.1vmax;
+}
+
+$additionalTimeShadow: rgba(0, 139, 0, 0.3);
